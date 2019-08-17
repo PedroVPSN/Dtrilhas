@@ -1,0 +1,110 @@
+body {
+  font-family: "Montserrat";
+
+}
+
+#title {
+  background-color: #313131;
+  color: #fafafa;
+}
+
+.logo {
+  border-radius: 100%;
+  margin-left: -15px;
+}
+
+.navbar-brand {
+  font-size: 1rem;
+}
+
+.container-fluid {
+  padding: 0 15% 7%;
+}
+
+.carousel-inner {
+  border-radius: 2%;
+}
+
+/* Banner Section */
+#banner {
+  padding: 18% 15%;
+  position: relative;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.1)),
+    url("../images/dtrilhas-banner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+/* Feature Section */
+#feature {
+  padding: 7% 15%;
+  position: relative;
+
+}
+
+.row {
+  margin: 0;
+  background: #e5e5e5;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+
+}
+
+.icon {
+  color: #2b580c;
+  padding-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #94fc13;
+}
+
+/* Testimonials */
+#testimonials {
+  text-align: center;
+  background-color: #313131;
+  color: #fafafa;
+}
+h6 {
+  margin: 15px 100px 0;
+  text-align: center;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* footer Section*/
+#footer{
+  text-align: center;
+  padding: 2% 15%;
+  background-color: #e5e5e5;
+}
+
+.fa-twitter{
+  margin: 0 10px;
+
+}
+
+.fa-facebook-f{
+  margin: 0 10px;
+}
+
+.fa-instagram{
+  margin: 0 10px;
+}
+
+.fa-envelope{
+  margin: 0 10px;
+}
+
+.right{
+  margin-top: 20px;
+}
